@@ -14,7 +14,7 @@ const enviarWhatsApp = () => {
 }
 
 const enviarEmail = () => {
-  const mailtoLink = `mailto:sttirlley@gmail.com`
+  const mailtoLink = `mailto:angelisgadotti@gmail.com`
 
   window.open(mailtoLink)
 }

@@ -20,6 +20,7 @@
 .home-titulo {
   margin: 20px;
   text-align: center;
+  letter-spacing: 0.05rem;
 }
 .btn-contato {
   border: 1px solid;
@@ -34,7 +35,6 @@
     'Segoe UI Symbol', 'Noto Color Emoji';
 }
 .btn-contato:hover {
-  font-weight: bolder;
   color: black;
 }
 .btn-contato:active {
