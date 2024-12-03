@@ -1,0 +1,116 @@
+.container-fotos {
+  scroll-margin-top: 60px;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  background-color: white;
+}
+.fotos-div {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.fotos-titulo {
+  text-align: center;
+}
+.foto {
+  width: 45%;
+  margin: 5px;
+}
+@media screen and (min-width: 280px) and (max-width: 384px) {
+  .container-fotos {
+    scroll-margin-top: 40px;
+  }
+  .fotos-titulo {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 385px) and (max-width: 576px) {
+  .container-fotos {
+    scroll-margin-top: 55px;
+  }
+  .fotos-titulo {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .container-fotos {
+    scroll-margin-top: 60px;
+  }
+  .fotos-titulo {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1152px) {
+  .container-fotos {
+    scroll-margin-top: 60px;
+  }
+  .fotos-titulo {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .fotos-div {
+    width: 100%;
+  }
+  .foto {
+    width: 260px;
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1153px) and (max-width: 1536px) {
+  .container-fotos {
+    scroll-margin-top: 60px;
+  }
+  .fotos-titulo {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .fotos-div {
+    width: 100%;
+  }
+  .foto {
+    width: 280px;
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1537px) and (max-width: 1921px) {
+  .container-fotos {
+    scroll-margin-top: 70px;
+  }
+  .fotos-titulo {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .fotos-div {
+    width: 100%;
+  }
+  .foto {
+    width: 360px;
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1922px) {
+  .container-fotos {
+    scroll-margin-top: 70px;
+  }
+  .fotos-titulo {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .fotos-div {
+    width: 100%;
+  }
+  .foto {
+    width: 500px;
+    margin: 15px;
+  }
+}

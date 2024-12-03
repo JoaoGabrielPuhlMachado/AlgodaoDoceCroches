@@ -1,0 +1,59 @@
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.container-home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(223, 216, 255, 0.6);
+  filter: blur(1.3px);
+  z-index: -1;
+}
+.home-titulo {
+  margin: 20px;
+  text-align: center;
+}
+.btn-contato {
+  border: 1px solid;
+  border-radius: 4px !important;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  color: rgb(119, 0, 255);
+  text-decoration: none;
+  margin: 0 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+}
+.btn-contato:hover {
+  font-weight: bolder;
+  color: black;
+}
+.btn-contato:active {
+  color: rgb(119, 0, 255);
+}
+
+@media screen and (min-width: 1922px) {
+}
+@media screen and (min-width: 280px) and (max-width: 384px) {
+}
+@media screen and (min-width: 385px) and (max-width: 576px) {
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 1152px) {
+}
+@media screen and (min-width: 1153px) and (max-width: 1536px) {
+}
+@media screen and (min-width: 1537px) and (max-width: 1921px) {
+}
+@media screen and (min-width: 1922px) {
+}

@@ -1,0 +1,94 @@
+header {
+  backdrop-filter: blur(5px);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+ul {
+  padding: 0;
+  display: flex;
+}
+li {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0 25px;
+}
+a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  text-decoration: none;
+  color: #973cff;
+}
+a:hover {
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 280px) and (max-width: 384px) {
+  header {
+    height: 40px;
+  }
+  li {
+    font-size: 16px;
+    margin: 0 20px;
+  }
+}
+@media screen and (min-width: 385px) and (max-width: 576px) {
+  header {
+    height: 55px;
+  }
+  li {
+    font-size: 24px;
+    margin: 0 30px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  header {
+    height: 60px;
+  }
+  li {
+    font-size: 28px;
+    margin: 0 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1152px) {
+  header {
+    height: 60px;
+  }
+  li {
+    font-size: 30px;
+    margin: 0 40px;
+  }
+}
+@media screen and (min-width: 1153px) and (max-width: 1536px) {
+  header {
+    height: 60px;
+  }
+  li {
+    font-size: 30px;
+    margin: 0 40px;
+  }
+}
+@media screen and (min-width: 1537px) and (max-width: 1921px) {
+  header {
+    height: 70px;
+  }
+  li {
+    font-size: 34px;
+    margin: 0 60px;
+  }
+}
+@media screen and (min-width: 1922px) {
+  header {
+    height: 70px;
+  }
+  li {
+    font-size: 34px;
+    margin: 0 60px;
+  }
+}
