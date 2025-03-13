@@ -16,7 +16,7 @@ const scrollToSection = (sectionId) => {
 const handleLinkClick = (e: Event, sectionId: string, pageTitle: string) => {
   e.preventDefault()
   scrollToSection(sectionId)
-  document.title = `${pageTitle} - Meu Crochê`
+  document.title = `${pageTitle} - Algodão Doce Crochês`
 }
 
 const formData = ref({
@@ -46,10 +46,9 @@ const enviarWhatsApp = () => {
 <template>
   <div id="home" class="container-home">
     <div class="home-titulo">
-      <h1>Bem-Vindo ao Meu Crochê</h1>
+      <h1>Bem-Vindo ao Algodão Doce Crochês</h1>
       <h3>
-        Aqui você pode encontrar produtos como tapetes, sousplas, amigurumis já em estoque ou pedir
-        para fazer sob medida
+        Aqui fazemos amigurimis a pronta entrega ou sob-medida.
       </h3>
     </div>
     <div class="home-contato">
@@ -63,14 +62,16 @@ const enviarWhatsApp = () => {
       <h1>Alguns Trabalhos Feitos Por Mim</h1>
     </div>
     <div class="fotos-div">
-      <img class="foto" src="../css/img/croche1.jpg" alt="foto" />
-      <img class="foto" src="../css/img/croche2.jpg" alt="foto" />
-      <img class="foto" src="../css/img/croche3.webp" alt="foto" />
-      <img class="foto" src="../css/img/croche4.jpg" alt="foto" />
-      <img class="foto" src="../css/img/croche1.jpg" alt="foto" />
-      <img class="foto" src="../css/img/croche2.jpg" alt="foto" />
-      <img class="foto" src="../css/img/croche3.webp" alt="foto" />
-      <img class="foto" src="../css/img/croche4.jpg" alt="foto" />
+      <img class="foto" src="../css/img/PolvoHumorBravo.jpg" alt="foto" />
+      <img class="foto" src="../css/img/PolvoHumorFeliz.jpg" alt="foto" />
+      <img class="foto" src="../css/img/UrsoJardineiro.jpg" alt="foto" />
+      <img class="foto" src="../css/img/UrsinhoCachecol.jpg" alt="foto" />
+      <img class="foto" src="../css/img/UrsoRosa.jpg" alt="foto" />
+      <img class="foto" src="../css/img/GatinhoCoração.jpg" alt="foto" />
+      <img class="foto" src="../css/img/ChaveiroGatinho.jpg" alt="foto" />
+      <img class="foto" src="../css/img/ChaveiroSorvete.jpg" alt="foto" />
+      <img class="foto" src="../css/img/Elefante.jpg" alt="foto" />
+      <img class="foto" src="../css/img/Dinossauro.jpg" alt="foto" />
     </div>
   </div>
   <div id="contato" class="container-contato">

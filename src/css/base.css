@@ -8,6 +8,6 @@
   width: 8px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #973cff;
+  background-color: rgb(180, 131, 131);
   border-radius: 15px;
 }

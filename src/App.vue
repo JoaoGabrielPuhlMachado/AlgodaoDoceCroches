@@ -48,7 +48,7 @@ const handleLinkClick = (e, sectionId, pageTitle) => {
   } else {
     scrollToSection(sectionId)
   }
-  document.title = `${pageTitle} - Meu Crochê`
+  document.title = `${pageTitle} - Algodão Doce Crochês`
   currentPage.value = pageTitle
   localStorage.setItem('lastVisitedSection', sectionId)
 }
@@ -59,9 +59,9 @@ onMounted(() => {
     scrollToSection(lastVisitedSection)
     currentPage.value = lastVisitedSection
     document.title = `${lastVisitedSection.charAt(0).toUpperCase() + lastVisitedSection.slice(1)
-      } - Meu Crochê`
+      } - Algodão Doce Crochês`
   } else {
-    document.title = `Home - Meu Crochê`
+    document.title = `Home - Algodão Doce Crochês`
     currentPage.value = 'home'
   }
 })
@@ -74,7 +74,7 @@ onMounted(() => {
 </template>
 <style>
 .with-border header {
-  background-color: rgba(151, 60, 255, 0.06);
-  border-bottom: 1px solid #973cff;
+  background-color: rgba(131, 94, 94, 0.06);
+  border-bottom: 1px solid rgb(131, 94, 94);
 }
 </style>

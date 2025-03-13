@@ -23,7 +23,7 @@ a {
     'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
   text-decoration: none;
-  color: #973cff;
+  color: rgb(131, 94, 94);
 }
 li a:hover {
   font-weight: bolder;

@@ -26,7 +26,7 @@ const handleLinkClick = (e, sectionId, pageTitle) => {
   } else {
     scrollToSection(sectionId)
   }
-  document.title = `${pageTitle} - Meu Crochê`
+  document.title = `${pageTitle} - Algodão Doce Crochês`
   currentPage.value = pageTitle
   localStorage.setItem('lastVisitedSection', sectionId)
 }
